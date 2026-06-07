@@ -1,0 +1,9 @@
+name = "gameassist"
+main = "src/index.js"
+compatibility_date = "2026-06-07"
+workers_dev = true
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
